@@ -1,7 +1,13 @@
 ---
-title: "max_website"
+title: "About"
+image: about_picture.jpg
+about:
+    template: jolla
+    image-shape: round
+    image-width: 10cm
+    # links: 
+    #     - icon: github
+    #     text: github
+    #     href: https://github.com/maxnlee
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hi there, I'm Max :)

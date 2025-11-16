@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "Max's Website"
+  title: "Max Nghiem Lee"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: accomplishments.qmd
+        text: Accomplishments
+      - href: contact.qmd
 
 format:
   html:

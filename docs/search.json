@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Welcome to my website:"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "max_website",
+    "title": "About",
+    "section": "",
+    "text": "Hi there, I’m Max :)"
+  },
+  {
+    "objectID": "accomplishments.html",
+    "href": "accomplishments.html",
+    "title": "Life accomplishments",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Catch me if you can :P"
   }
 ]
