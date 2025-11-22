@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Life accomplishments – Max Nghiem Lee</title>
+<title>My projects – Max Nghiem Lee</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./accomplishments.html" aria-current="page"> 
-<span class="menu-text">Accomplishments</span></a>
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
@@ -117,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Life accomplishments</h1>
+<h1 class="title">My projects</h1>
 </div>
 
 
@@ -134,8 +134,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<ul>
+<li><p>Published a <a href="https://www.mdpi.com/2411-5142/10/3/352">research paper</a> on the effectiveness of using pickleball as a mood intervention, mentored by sports science professor <a href="https://sites.google.com/site/hagiwaragoichilab">Goichi Hagiwara</a> of Kyushu Sangyo University.</p></li>
+<li><p>Web-scraped data and reviews of resaurants in Kyoto through <a href="https://tabelog.com/en/kyoto/">Tabelog</a>. Through this and location data, we drew conclusions about gentrification based on the varying prices, star ratings, and diversity of cuisines based on area. <a href="https://github.com/maxnlee/DataSci112Final/blob/main/Final%20Datasci112%20Project.pdf" download="">View the final poster</a></p></li>
+<li><p>Detected cancer using a <a href="https://www.kaggle.com/competitions/histopathologic-cancer-detection">Kaggle dataset</a> with ~88% accuracy in 32x32 pixel images using a 4-Layer Convolutional Neural Network. See final notebook below: <iframe src="https://www.kaggle.com/embed/guppykitty/kaggle-ml?kernelSessionId=64780798" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Kaggle ML "></iframe></p></li>
+</ul>
 
 
 
@@ -227,6 +230,13 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
