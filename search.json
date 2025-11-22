@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome! I’m Max :>",
+    "section": "",
+    "text": "print(\"Hello, World!\")"
+  },
+  {
+    "objectID": "accomplishments.html",
+    "href": "accomplishments.html",
+    "title": "My projects",
+    "section": "",
+    "text": "Published a research paper on the effectiveness of using pickleball as a mood intervention, mentored by sports science professor Goichi Hagiwara of Kyushu Sangyo University.\nWeb-scraped data and reviews of resaurants in Kyoto through Tabelog. Through this and location data, we drew conclusions about gentrification based on the varying prices, star ratings, and diversity of cuisines based on area. View the final poster\nDetected cancer using a Kaggle dataset with ~88% accuracy in 32x32 pixel images using a 4-Layer Convolutional Neural Network. See final notebook below:"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "email: maxnlee@stanford.edu  linkedin: https://www.linkedin.com/in/max-lee-9633a9227/  github: https://github.com/maxnlee"
+  }
+]
